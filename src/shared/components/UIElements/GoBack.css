@@ -1,0 +1,24 @@
+/* button */
+.go-back-container {
+  height: 40px;
+}
+
+.go-back {
+  color: black;
+  font-size: 24px;
+ font-family: 'Dongle', sans-serif;
+ text-align: center;
+ vertical-align: center;
+ transition: all 200ms ease-in-out;
+}
+
+.go-back svg{
+  transform: translateY(25%);
+  padding-right: 5px;
+}
+
+.go-back:hover{
+  color: rgb(165, 165, 165);
+  cursor: pointer;
+  transform: translateY(3px);
+}

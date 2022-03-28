@@ -1,0 +1,61 @@
+.input , .textarea, .textarea-for-short, .textarea-for-markdown {
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+}
+
+.input {
+  display: block;
+  width: 50%;
+  height: 30px;
+  min-width: 300px;
+  border: none;
+  border-bottom: 1.5px solid rgb(182, 182, 182);
+  background: transparent;
+}
+
+.input:focus{
+  outline: none;
+  border-bottom: 2px solid rgb(77, 124, 212);
+}
+
+.textarea {
+  display: block;
+  width: 100%;
+  min-width: 300px;
+  height: 300px;
+  border: 1.5px solid rgb(182, 182, 182);
+  padding: 30px;
+  
+}
+
+.textarea:focus {
+  outline: none;
+  border: 2px solid rgb(77, 124, 212);
+}
+.textarea-for-short {
+  display: block;
+  width: 90%;
+  border: 1.5px solid rgb(182, 182, 182);
+  padding: 30px;
+  height: 90%;
+  margin-top: 5%;
+}
+
+.textarea-for-short:focus {
+  outline: none;
+  border: 2px solid rgb(77, 124, 212);
+}
+
+.textarea-for-markdown {
+  display: block;
+  width: 50%;
+  height: 100%;
+  font-size: 16px;
+}
+
+.textarea-for-markdown:focus {
+  outline: none;
+  border: 2px solid rgb(77, 124, 212);
+ overflow-y: scroll;
+  
+}

@@ -1,0 +1,11 @@
+.portfolio-title {
+  display: flex;
+  justify-content: center;
+  font-family: 'Dongle', sans-serif;
+  font-size: 40px;
+  margin: auto;
+}
+
+.cards {
+  min-height: 400px;
+}

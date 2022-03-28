@@ -1,0 +1,11 @@
+.admin {
+  z-index: 100;
+  width: 100vw;
+  height: 100vh;
+  overflow-x: hidden;
+}
+
+.main-admin-display {
+  width: 100vw;
+  height: calc(100vh - 40px);
+}

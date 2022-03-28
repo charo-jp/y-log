@@ -1,0 +1,11 @@
+.display-for-create-markdown {
+  width: 50%;
+ height: 100%;
+ overflow-y: scroll;
+ padding: 0;
+ margin: 0;
+}
+
+.markdown-display {
+  width: 100%;
+}

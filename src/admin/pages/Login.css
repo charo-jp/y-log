@@ -1,0 +1,43 @@
+.admin {
+  z-index: 100;
+  width: 100vw;
+  height: 100vh;
+  overflow-x: hidden;
+}
+
+.login-contaienr {
+  font-family: 'Dongle', sans-serif;
+  font-size: 36px;
+  text-align: center;
+}
+
+.form-component {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 10px;
+}
+
+
+
+
+.showAndHide {
+  display: block;
+  padding: 5px;
+  font-family: "Roboto", sans-serif;
+}
+
+.password {
+  position: relative;
+}
+
+.invalid-password {
+  position: absolute  ;
+  font-size: 12px;
+  font-family: "Roboto", sans-serif;
+  color: red;
+  font-weight: 500;
+  top:40px;
+}

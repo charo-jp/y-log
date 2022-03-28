@@ -1,0 +1,28 @@
+.contact-preview {
+  display: flex;
+  margin: 20px auto 10px auto;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  width: 90%;
+  flex-direction: column;
+}
+
+.contact-message, .contact-email {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+}
+
+.contact-message {
+  height: 400px;
+  overflow-y: scroll;
+}
+.contact-message  ul, .contact-message ol{
+  padding-inline-start: 40px;
+}
+
+.contact-email{
+  margin: 20px;
+  align-self: flex-end;
+  font-weight: 500;
+}

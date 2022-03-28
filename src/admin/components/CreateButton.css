@@ -1,0 +1,17 @@
+.create-new-post {
+  font-family: "Roboto", sans-serif;
+  color: black;
+  font-weight: 500;
+  background-color: #7FFF00;
+  padding: 8px 15px;
+  border-radius: 20px;
+}
+
+.create-new-post:hover {
+  background-color: #6cd100;
+}
+
+.edit-post {
+  color: black;
+  cursor: pointer;
+}

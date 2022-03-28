@@ -1,0 +1,57 @@
+.list-of-post {
+  width: 100%;
+  height: 100%;
+}
+
+.list-of-post-header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  margin: auto;
+  padding-bottom: 10px;
+}
+
+.list-of-post-title{
+  font-family: 'Dongle', sans-serif;
+  font-size: 32px;
+}
+
+.database-container {
+  width: 90%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+.crud-icon {
+  font-size: 20px;
+}
+
+.crud-icon:hover {
+  color: rgb(158, 158, 158);
+}
+
+.view-button{
+  color: black;
+}
+
+.view-button:hover{
+  cursor: pointer;
+}
+
+.table-container {
+  font-family: "Roboto", sans-serif;
+}
+
+.lower-modal {
+  display: flex;
+  flex-direction: row;
+  width: 50%;
+  height: 100px;
+  margin: 20px auto 10px auto;
+  justify-content: space-between;
+  align-items: center;
+}

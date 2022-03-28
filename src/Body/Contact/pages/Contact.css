@@ -1,0 +1,42 @@
+.contact-title {
+  display: flex;
+  justify-content: center;
+  font-family: 'Dongle', sans-serif;
+  font-size: 40px;
+  margin: auto;
+}
+
+.form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  width: 50%;
+  font-family: 'Dongle', sans-serif;
+  font-size: 32px;
+}
+
+.form-component {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 10px;
+}
+
+
+.button-container {
+  padding: 10px;
+}
+
+.required {
+  color: red;
+}
+
+@media screen and (max-width: 768px){
+  .form-component {
+    align-items: center;
+  }
+}
