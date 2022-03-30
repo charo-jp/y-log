@@ -179,4 +179,8 @@
     padding: 0;
     margin-bottom: 30px;
   }
+
+  .markdown-container{
+    padding: 2px;
+  }
 }
