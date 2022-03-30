@@ -87,8 +87,8 @@ const Home = () => {
         cNamePic="about-me-pic"
         cNameCon="about-me-content"
       >
-        Hello, I am Yuya Hochi. I changed my expertise from mechanical
-        engineering to Computer Science after graduating college. I am now
+        Hello, I am Yuya Hochi. I decided to change my expertise from mechanical
+        engineering to Computer Science after graduating university. I am now
         preparing for a CS course which starts this September in the UK. While
         waiting for the departure, I have taught myself MERN stack and published
         this website “Y-log”. In this blog I attach some web-and-ai-related
