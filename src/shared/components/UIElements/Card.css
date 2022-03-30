@@ -66,6 +66,7 @@
     flex-direction: column;
     height: auto;
     max-width: 400px;
+    max-height: none;
   }
   .card img {
     min-height: 250px;
@@ -83,5 +84,8 @@
 
   .card-title {
     font-size: 32px;
+  }
+  .card-createdAt{
+    width: 100px;
   }
 }
