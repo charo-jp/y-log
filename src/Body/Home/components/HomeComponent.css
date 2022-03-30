@@ -50,5 +50,6 @@
 
   .home-component-content{
     grid-area: 2/1/3/2;
+    margin-top: 15px;
   }
 }
