@@ -180,6 +180,10 @@
     margin-bottom: 30px;
   }
 
+  .markdown-display{
+    width: 100%
+  }
+
   .markdown-container{
     padding: 2px;
   }
