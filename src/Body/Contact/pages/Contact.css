@@ -26,6 +26,9 @@
   padding: 10px;
 }
 
+.form-message{
+  min-width: 300px;
+}
 
 .button-container {
   padding: 10px;
@@ -36,7 +39,12 @@
 }
 
 @media screen and (max-width: 768px){
+  .contact-title{
+    font-size: 28px;
+  }
   .form-component {
     align-items: center;
   }
+
+
 }
